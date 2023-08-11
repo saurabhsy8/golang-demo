@@ -52,6 +52,6 @@ tasks:
   #     - ./argocd app --grpc-web sync $APP_NAME
   #     - ./argocd app --grpc-web wait $APP_NAME --timeout 600
 
-trigger:
-  when: branch == "release-dev"
+# trigger:
+#   when: branch == "release-dev"
 
